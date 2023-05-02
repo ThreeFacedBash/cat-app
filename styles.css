@@ -1,0 +1,39 @@
+body {
+    background-color: #C0B7B1;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.cat{
+    background-color: #E8E288;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 2px solid;
+    border-color: #53131E;
+    flex: 1;
+}
+
+
+@media(min-width: 960px){
+    .cats01 {
+    display: flex;
+             }
+
+}
+
+fieldset {
+    margin:1em;
+    border: 0;
+}
+
+button{
+     padding: 1em;
+     border: 2px solid ;
+     border-radius: 3em;
+     
+}
+
+input{
+    padding: 1em;
+    
+}
